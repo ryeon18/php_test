@@ -1,10 +1,12 @@
 <div style="padding-top:30vh; text-align:center; font-size:25px">
 	HELLO SY<br>
 	<br>
+		Your ip address : <?=$_SERVER["REMOTE_ADDR"]?><br>
 </div>
 
-
-<body>
+<?php
+	echo "<p>??</p>";
+?>
 <?php
 	$a = 1;
 	var_dump($a);
@@ -25,7 +27,4 @@
 	
 	$e = array($a, $b);
 	var_dump($e);
-	
-	
 ?>
-</body>
